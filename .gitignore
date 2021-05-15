@@ -1,3 +1,9 @@
+*.bin
+*.zip
+*.log
+CnDbpedia.spo
+datasets/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

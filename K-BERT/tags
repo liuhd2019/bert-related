@@ -1,0 +1,280 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AttnEncoder	uer/encoders/attn_encoder.py	/^class AttnEncoder(nn.Module):$/;"	c
+AvgSubencoder	uer/subencoders/avg_subencoder.py	/^class AvgSubencoder(nn.Module):$/;"	c
+BasicTokenizer	uer/utils/tokenizer.py	/^class BasicTokenizer(object):$/;"	c
+BertAdam	uer/utils/optimizers.py	/^class BertAdam(Optimizer):$/;"	c
+BertClassifier	run_kbert_cls.py	/^class BertClassifier(nn.Module):$/;"	c
+BertDataLoader	uer/utils/data.py	/^class BertDataLoader(object):$/;"	c
+BertDataset	uer/utils/data.py	/^class BertDataset(object):$/;"	c
+BertEmbedding	uer/layers/embeddings.py	/^class BertEmbedding(nn.Module):$/;"	c
+BertEncoder	uer/encoders/bert_encoder.py	/^class BertEncoder(nn.Module):$/;"	c
+BertModel	uer/models/bert_model.py	/^class BertModel(nn.Module):$/;"	c
+BertTagger	run_kbert_ner.py	/^class BertTagger(nn.Module):$/;"	c
+BertTarget	uer/targets/bert_target.py	/^class BertTarget(nn.Module):$/;"	c
+BertTokenizer	uer/utils/tokenizer.py	/^class BertTokenizer(object):$/;"	c
+BilmDataLoader	uer/utils/data.py	/^class BilmDataLoader(object):$/;"	c
+BilmDataset	uer/utils/data.py	/^class BilmDataset(object):$/;"	c
+BilmTarget	uer/targets/bilm_target.py	/^class BilmTarget(nn.Module):$/;"	c
+BilstmEncoder	uer/encoders/birnn_encoder.py	/^class BilstmEncoder(nn.Module):$/;"	c
+CLS_ID	uer/utils/constants.py	/^CLS_ID = 101$/;"	v
+CLS_TOKEN	brain/config.py	/^CLS_TOKEN = '[CLS]'$/;"	v
+CLS_TOKEN	uer/utils/constants.py	/^CLS_TOKEN = '[CLS]'$/;"	v
+CharTokenizer	uer/utils/tokenizer.py	/^class CharTokenizer(Tokenizer):$/;"	c
+ClsDataLoader	uer/utils/data.py	/^class ClsDataLoader(object):$/;"	c
+ClsDataset	uer/utils/data.py	/^class ClsDataset(object):$/;"	c
+ClsTarget	uer/targets/cls_target.py	/^class ClsTarget(nn.Module):$/;"	c
+CnnEncoder	uer/encoders/cnn_encoder.py	/^class CnnEncoder(nn.Module):$/;"	c
+CnnSubencoder	uer/subencoders/cnn_subencoder.py	/^class CnnSubencoder(nn.Module):$/;"	c
+CrnnEncoder	uer/encoders/mixed_encoder.py	/^class CrnnEncoder(nn.Module):$/;"	c
+ENT_TOKEN	brain/config.py	/^ENT_TOKEN = '[ENT]'$/;"	v
+FILE_DIR_PATH	brain/config.py	/^FILE_DIR_PATH = os.path.dirname(os.path.abspath(__file__))$/;"	v
+GatedcnnEncoder	uer/encoders/cnn_encoder.py	/^class GatedcnnEncoder(nn.Module):$/;"	c
+GptEncoder	uer/encoders/gpt_encoder.py	/^class GptEncoder(nn.Module):$/;"	c
+GruEncoder	uer/encoders/rnn_encoder.py	/^class GruEncoder(nn.Module):$/;"	c
+KGS	brain/config.py	/^KGS = {$/;"	v
+KnowledgeGraph	brain/knowgraph.py	/^class KnowledgeGraph(object):$/;"	c
+LayerNorm	uer/layers/layer_norm.py	/^class LayerNorm(nn.Module):$/;"	c
+LmDataLoader	uer/utils/data.py	/^class LmDataLoader(object):$/;"	c
+LmDataset	uer/utils/data.py	/^class LmDataset(object):$/;"	c
+LmTarget	uer/targets/lm_target.py	/^class LmTarget(nn.Module):$/;"	c
+LstmEncoder	uer/encoders/rnn_encoder.py	/^class LstmEncoder(nn.Module):$/;"	c
+LstmSubencoder	uer/subencoders/rnn_subencoder.py	/^class LstmSubencoder(nn.Module):$/;"	c
+MASK_ID	uer/utils/constants.py	/^MASK_ID = 103$/;"	v
+MASK_TOKEN	brain/config.py	/^MASK_TOKEN = '[MASK]'$/;"	v
+MASK_TOKEN	uer/utils/constants.py	/^MASK_TOKEN = '[MASK]'$/;"	v
+MAX_ENTITIES	brain/config.py	/^MAX_ENTITIES = 2$/;"	v
+MlmDataLoader	uer/utils/data.py	/^class MlmDataLoader(object):$/;"	c
+MlmDataset	uer/utils/data.py	/^class MlmDataset(object):$/;"	c
+MlmTarget	uer/targets/mlm_target.py	/^class MlmTarget(nn.Module):$/;"	c
+Model	uer/models/model.py	/^class Model(nn.Module):$/;"	c
+MultiHeadedAttention	uer/layers/multi_headed_attn.py	/^class MultiHeadedAttention(nn.Module):$/;"	c
+NEVER_SPLIT_TAG	brain/config.py	/^NEVER_SPLIT_TAG = [$/;"	v
+NspDataLoader	uer/utils/data.py	/^class NspDataLoader(object):$/;"	c
+NspDataset	uer/utils/data.py	/^class NspDataset(object):$/;"	c
+NspTarget	uer/targets/nsp_target.py	/^class NspTarget(nn.Module):$/;"	c
+OBJ_TOKEN	brain/config.py	/^OBJ_TOKEN = '[OBJ]'$/;"	v
+PAD_ID	uer/utils/constants.py	/^PAD_ID = 0$/;"	v
+PAD_TOKEN	brain/config.py	/^PAD_TOKEN = '[PAD]'$/;"	v
+PAD_TOKEN	uer/utils/constants.py	/^PAD_TOKEN = '[PAD]'$/;"	v
+PRE_TOKEN	brain/config.py	/^PRE_TOKEN = '[PRE]'$/;"	v
+PositionwiseFeedForward	uer/layers/position_ffn.py	/^class PositionwiseFeedForward(nn.Module):$/;"	c
+RcnnEncoder	uer/encoders/mixed_encoder.py	/^class RcnnEncoder(nn.Module):$/;"	c
+S2sDataLoader	uer/utils/data.py	/^class S2sDataLoader(object):$/;"	c
+S2sDataset	uer/utils/data.py	/^class S2sDataset(object):$/;"	c
+S2sTarget	uer/targets/s2s_target.py	/^class S2sTarget(nn.Module):$/;"	c
+SCHEDULES	uer/utils/optimizers.py	/^SCHEDULES = {$/;"	v
+SEP_ID	uer/utils/constants.py	/^SEP_ID = 102$/;"	v
+SEP_TOKEN	brain/config.py	/^SEP_TOKEN = '[SEP]'$/;"	v
+SEP_TOKEN	uer/utils/constants.py	/^SEP_TOKEN = '[SEP]'$/;"	v
+SUB_TOKEN	brain/config.py	/^SUB_TOKEN = '[SUB]'$/;"	v
+SpaceTokenizer	uer/utils/tokenizer.py	/^class SpaceTokenizer(Tokenizer):$/;"	c
+Tokenizer	uer/utils/tokenizer.py	/^class Tokenizer(object):$/;"	c
+TransformerLayer	uer/layers/transformer.py	/^class TransformerLayer(nn.Module):$/;"	c
+UNK_ID	uer/utils/constants.py	/^UNK_ID = 100$/;"	v
+UNK_TOKEN	brain/config.py	/^UNK_TOKEN = '[UNK]'$/;"	v
+UNK_TOKEN	uer/utils/constants.py	/^UNK_TOKEN = '[UNK]'$/;"	v
+Vocab	uer/utils/vocab.py	/^class Vocab(object):$/;"	c
+WordpieceTokenizer	uer/utils/tokenizer.py	/^class WordpieceTokenizer(object):$/;"	c
+__del__	uer/utils/data.py	/^    def __del__(self):$/;"	m	class:BertDataLoader	file:
+__del__	uer/utils/data.py	/^    def __del__(self):$/;"	m	class:BilmDataLoader	file:
+__del__	uer/utils/data.py	/^    def __del__(self):$/;"	m	class:ClsDataLoader	file:
+__del__	uer/utils/data.py	/^    def __del__(self):$/;"	m	class:LmDataLoader	file:
+__del__	uer/utils/data.py	/^    def __del__(self):$/;"	m	class:MlmDataLoader	file:
+__del__	uer/utils/data.py	/^    def __del__(self):$/;"	m	class:NspDataLoader	file:
+__del__	uer/utils/data.py	/^    def __del__(self):$/;"	m	class:S2sDataLoader	file:
+__init__	brain/knowgraph.py	/^    def __init__(self, spo_files, predicate=False):$/;"	m	class:KnowledgeGraph
+__init__	run_kbert_cls.py	/^    def __init__(self, args, model):$/;"	m	class:BertClassifier
+__init__	run_kbert_ner.py	/^    def __init__(self, args, model):$/;"	m	class:BertTagger
+__init__	uer/encoders/attn_encoder.py	/^    def __init__(self, args):$/;"	m	class:AttnEncoder
+__init__	uer/encoders/bert_encoder.py	/^    def __init__(self, args):$/;"	m	class:BertEncoder
+__init__	uer/encoders/birnn_encoder.py	/^    def __init__(self, args):$/;"	m	class:BilstmEncoder
+__init__	uer/encoders/cnn_encoder.py	/^    def __init__(self, args):$/;"	m	class:CnnEncoder
+__init__	uer/encoders/cnn_encoder.py	/^    def __init__(self, args):$/;"	m	class:GatedcnnEncoder
+__init__	uer/encoders/gpt_encoder.py	/^    def __init__(self, args):$/;"	m	class:GptEncoder
+__init__	uer/encoders/mixed_encoder.py	/^    def __init__(self, args):$/;"	m	class:CrnnEncoder
+__init__	uer/encoders/mixed_encoder.py	/^    def __init__(self, args):$/;"	m	class:RcnnEncoder
+__init__	uer/encoders/rnn_encoder.py	/^    def __init__(self, args):$/;"	m	class:GruEncoder
+__init__	uer/encoders/rnn_encoder.py	/^    def __init__(self, args):$/;"	m	class:LstmEncoder
+__init__	uer/layers/embeddings.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:BertEmbedding
+__init__	uer/layers/layer_norm.py	/^    def __init__(self, hidden_size, eps=1e-6):$/;"	m	class:LayerNorm
+__init__	uer/layers/multi_headed_attn.py	/^    def __init__(self, hidden_size, heads_num, dropout):$/;"	m	class:MultiHeadedAttention
+__init__	uer/layers/position_ffn.py	/^    def __init__(self, hidden_size, feedforward_size):$/;"	m	class:PositionwiseFeedForward
+__init__	uer/layers/transformer.py	/^    def __init__(self, args):$/;"	m	class:TransformerLayer
+__init__	uer/models/bert_model.py	/^    def __init__(self, args, embedding, encoder, target):$/;"	m	class:BertModel
+__init__	uer/models/model.py	/^    def __init__(self, args, embedding, encoder, target, subencoder = None):$/;"	m	class:Model
+__init__	uer/subencoders/avg_subencoder.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:AvgSubencoder
+__init__	uer/subencoders/cnn_subencoder.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:CnnSubencoder
+__init__	uer/subencoders/rnn_subencoder.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:LstmSubencoder
+__init__	uer/targets/bert_target.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:BertTarget
+__init__	uer/targets/bilm_target.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:BilmTarget
+__init__	uer/targets/cls_target.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:ClsTarget
+__init__	uer/targets/lm_target.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:LmTarget
+__init__	uer/targets/mlm_target.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:MlmTarget
+__init__	uer/targets/nsp_target.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:NspTarget
+__init__	uer/targets/s2s_target.py	/^    def __init__(self, args, vocab_size):$/;"	m	class:S2sTarget
+__init__	uer/utils/data.py	/^    def __init__(self, args, dataset_path, batch_size,  proc_id, proc_num, shuffle=False):$/;"	m	class:S2sDataLoader
+__init__	uer/utils/data.py	/^    def __init__(self, args, dataset_path, batch_size, proc_id, proc_num, shuffle=False):$/;"	m	class:BertDataLoader
+__init__	uer/utils/data.py	/^    def __init__(self, args, dataset_path, batch_size, proc_id, proc_num, shuffle=False):$/;"	m	class:BilmDataLoader
+__init__	uer/utils/data.py	/^    def __init__(self, args, dataset_path, batch_size, proc_id, proc_num, shuffle=False):$/;"	m	class:ClsDataLoader
+__init__	uer/utils/data.py	/^    def __init__(self, args, dataset_path, batch_size, proc_id, proc_num, shuffle=False):$/;"	m	class:LmDataLoader
+__init__	uer/utils/data.py	/^    def __init__(self, args, dataset_path, batch_size, proc_id, proc_num, shuffle=False):$/;"	m	class:MlmDataLoader
+__init__	uer/utils/data.py	/^    def __init__(self, args, dataset_path, batch_size, proc_id, proc_num, shuffle=False):$/;"	m	class:NspDataLoader
+__init__	uer/utils/data.py	/^    def __init__(self, args, vocab, tokenizer):$/;"	m	class:BertDataset
+__init__	uer/utils/data.py	/^    def __init__(self, args, vocab, tokenizer):$/;"	m	class:BilmDataset
+__init__	uer/utils/data.py	/^    def __init__(self, args, vocab, tokenizer):$/;"	m	class:ClsDataset
+__init__	uer/utils/data.py	/^    def __init__(self, args, vocab, tokenizer):$/;"	m	class:LmDataset
+__init__	uer/utils/data.py	/^    def __init__(self, args, vocab, tokenizer):$/;"	m	class:MlmDataset
+__init__	uer/utils/data.py	/^    def __init__(self, args, vocab, tokenizer):$/;"	m	class:NspDataset
+__init__	uer/utils/data.py	/^    def __init__(self, args, vocab, tokenizer):$/;"	m	class:S2sDataset
+__init__	uer/utils/optimizers.py	/^    def __init__(self, params, lr, warmup=-1, t_total=-1, schedule='warmup_linear',$/;"	m	class:BertAdam
+__init__	uer/utils/tokenizer.py	/^    def __init__(self, args):$/;"	m	class:CharTokenizer
+__init__	uer/utils/tokenizer.py	/^    def __init__(self, args):$/;"	m	class:SpaceTokenizer
+__init__	uer/utils/tokenizer.py	/^    def __init__(self, args):$/;"	m	class:Tokenizer
+__init__	uer/utils/tokenizer.py	/^    def __init__(self, args, do_lower_case=True, max_len=None, do_basic_tokenize=True,$/;"	m	class:BertTokenizer
+__init__	uer/utils/tokenizer.py	/^    def __init__(self, vocab, unk_token="[UNK]", max_input_chars_per_word=100):$/;"	m	class:WordpieceTokenizer
+__init__	uer/utils/tokenizer.py	/^    def __init__(self,$/;"	m	class:BasicTokenizer
+__init__	uer/utils/vocab.py	/^    def __init__(self):$/;"	m	class:Vocab
+__iter__	uer/utils/data.py	/^    def __iter__(self):$/;"	m	class:BertDataLoader	file:
+__iter__	uer/utils/data.py	/^    def __iter__(self):$/;"	m	class:BilmDataLoader	file:
+__iter__	uer/utils/data.py	/^    def __iter__(self):$/;"	m	class:ClsDataLoader	file:
+__iter__	uer/utils/data.py	/^    def __iter__(self):$/;"	m	class:LmDataLoader	file:
+__iter__	uer/utils/data.py	/^    def __iter__(self):$/;"	m	class:MlmDataLoader	file:
+__iter__	uer/utils/data.py	/^    def __iter__(self):$/;"	m	class:NspDataLoader	file:
+__iter__	uer/utils/data.py	/^    def __iter__(self):$/;"	m	class:S2sDataLoader	file:
+__len__	uer/utils/vocab.py	/^    def __len__(self):$/;"	m	class:Vocab	file:
+_clean_text	uer/utils/tokenizer.py	/^    def _clean_text(self, text):$/;"	m	class:BasicTokenizer
+_create_lookup_table	brain/knowgraph.py	/^    def _create_lookup_table(self):$/;"	m	class:KnowledgeGraph
+_empty	uer/utils/data.py	/^    def _empty(self):$/;"	m	class:BertDataLoader
+_empty	uer/utils/data.py	/^    def _empty(self):$/;"	m	class:BilmDataLoader
+_empty	uer/utils/data.py	/^    def _empty(self):$/;"	m	class:ClsDataLoader
+_empty	uer/utils/data.py	/^    def _empty(self):$/;"	m	class:LmDataLoader
+_empty	uer/utils/data.py	/^    def _empty(self):$/;"	m	class:MlmDataLoader
+_empty	uer/utils/data.py	/^    def _empty(self):$/;"	m	class:NspDataLoader
+_empty	uer/utils/data.py	/^    def _empty(self):$/;"	m	class:S2sDataLoader
+_fill_buf	uer/utils/data.py	/^    def _fill_buf(self):$/;"	m	class:BertDataLoader
+_fill_buf	uer/utils/data.py	/^    def _fill_buf(self):$/;"	m	class:BilmDataLoader
+_fill_buf	uer/utils/data.py	/^    def _fill_buf(self):$/;"	m	class:ClsDataLoader
+_fill_buf	uer/utils/data.py	/^    def _fill_buf(self):$/;"	m	class:LmDataLoader
+_fill_buf	uer/utils/data.py	/^    def _fill_buf(self):$/;"	m	class:MlmDataLoader
+_fill_buf	uer/utils/data.py	/^    def _fill_buf(self):$/;"	m	class:NspDataLoader
+_fill_buf	uer/utils/data.py	/^    def _fill_buf(self):$/;"	m	class:S2sDataLoader
+_is_chinese_char	uer/utils/tokenizer.py	/^    def _is_chinese_char(self, cp):$/;"	m	class:BasicTokenizer
+_is_control	uer/utils/tokenizer.py	/^def _is_control(char):$/;"	f
+_is_punctuation	uer/utils/tokenizer.py	/^def _is_punctuation(char):$/;"	f
+_is_whitespace	uer/utils/tokenizer.py	/^def _is_whitespace(char):$/;"	f
+_run_split_on_punc	uer/utils/tokenizer.py	/^    def _run_split_on_punc(self, text):$/;"	m	class:BasicTokenizer
+_run_strip_accents	uer/utils/tokenizer.py	/^    def _run_strip_accents(self, text):$/;"	m	class:BasicTokenizer
+_tokenize_chinese_chars	uer/utils/tokenizer.py	/^    def _tokenize_chinese_chars(self, text):$/;"	m	class:BasicTokenizer
+add_knowledge_with_vm	brain/knowgraph.py	/^    def add_knowledge_with_vm(self, sent_batch, max_entities=config.MAX_ENTITIES, add_pad=True, max_length=128):$/;"	m	class:KnowledgeGraph
+add_knowledge_worker	run_kbert_cls.py	/^def add_knowledge_worker(params):$/;"	f
+batch_loader	run_kbert_cls.py	/^    def batch_loader(batch_size, input_ids, label_ids, mask_ids, pos_ids, vms):$/;"	f	function:main
+batch_loader	run_kbert_ner.py	/^    def batch_loader(batch_size, input_ids, label_ids, mask_ids, pos_ids, vm_ids, tag_ids):$/;"	f	function:main
+build	uer/utils/vocab.py	/^    def build(self, corpus_path, tokenizer, workers_num=1, min_count=1):$/;"	m	class:Vocab
+build_and_save	uer/utils/data.py	/^    def build_and_save(self, workers_num):$/;"	m	class:BertDataset
+build_and_save	uer/utils/data.py	/^    def build_and_save(self, workers_num):$/;"	m	class:BilmDataset
+build_and_save	uer/utils/data.py	/^    def build_and_save(self, workers_num):$/;"	m	class:ClsDataset
+build_and_save	uer/utils/data.py	/^    def build_and_save(self, workers_num):$/;"	m	class:LmDataset
+build_and_save	uer/utils/data.py	/^    def build_and_save(self, workers_num):$/;"	m	class:MlmDataset
+build_and_save	uer/utils/data.py	/^    def build_and_save(self, workers_num):$/;"	m	class:NspDataset
+build_and_save	uer/utils/data.py	/^    def build_and_save(self, workers_num):$/;"	m	class:S2sDataset
+build_instances	uer/utils/data.py	/^    def build_instances(self, all_documents):$/;"	m	class:BertDataset
+build_instances	uer/utils/data.py	/^    def build_instances(self, all_documents):$/;"	m	class:NspDataset
+build_model	uer/model_builder.py	/^def build_model(args):$/;"	f
+convert_ids_to_tokens	uer/utils/tokenizer.py	/^    def convert_ids_to_tokens(self, ids):$/;"	m	class:BertTokenizer
+convert_tokens_to_ids	uer/utils/tokenizer.py	/^    def convert_tokens_to_ids(self, tokens):$/;"	m	class:BertTokenizer
+count_line	uer/utils/vocab.py	/^def count_line(corpus_path):$/;"	f
+count_lines	uer/utils/data.py	/^def count_lines(file_path):$/;"	f
+create_ins_from_doc	uer/utils/data.py	/^    def create_ins_from_doc(self, all_documents, document_index):$/;"	m	class:BertDataset
+create_ins_from_doc	uer/utils/data.py	/^    def create_ins_from_doc(self, all_documents, document_index):$/;"	m	class:NspDataset
+evaluate	run_kbert_cls.py	/^    def evaluate(args, is_test, metrics='Acc'):$/;"	f	function:main
+evaluate	run_kbert_ner.py	/^    def evaluate(args, is_test):$/;"	f	function:main
+flip	uer/utils/misc.py	/^def flip(x, dim):$/;"	f
+forward	run_kbert_cls.py	/^    def forward(self, src, label, mask, pos=None, vm=None):$/;"	m	class:BertClassifier
+forward	run_kbert_ner.py	/^    def forward(self, src, label, mask, pos=None, vm=None):$/;"	m	class:BertTagger
+forward	uer/encoders/attn_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:AttnEncoder
+forward	uer/encoders/bert_encoder.py	/^    def forward(self, emb, seg, vm=None):$/;"	m	class:BertEncoder
+forward	uer/encoders/birnn_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:BilstmEncoder
+forward	uer/encoders/cnn_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:CnnEncoder
+forward	uer/encoders/cnn_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:GatedcnnEncoder
+forward	uer/encoders/gpt_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:GptEncoder
+forward	uer/encoders/mixed_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:CrnnEncoder
+forward	uer/encoders/mixed_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:RcnnEncoder
+forward	uer/encoders/rnn_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:GruEncoder
+forward	uer/encoders/rnn_encoder.py	/^    def forward(self, emb, seg):$/;"	m	class:LstmEncoder
+forward	uer/layers/embeddings.py	/^    def forward(self, src, seg, pos=None):$/;"	m	class:BertEmbedding
+forward	uer/layers/layer_norm.py	/^    def forward(self, x):$/;"	m	class:LayerNorm
+forward	uer/layers/multi_headed_attn.py	/^    def forward(self, key, value, query, mask):$/;"	m	class:MultiHeadedAttention
+forward	uer/layers/position_ffn.py	/^    def forward(self, x):$/;"	m	class:PositionwiseFeedForward
+forward	uer/layers/transformer.py	/^    def forward(self, hidden, mask):$/;"	m	class:TransformerLayer
+forward	uer/models/bert_model.py	/^    def forward(self, src, tgt_mlm, tgt_nsp, seg):$/;"	m	class:BertModel
+forward	uer/models/model.py	/^    def forward(self, src, tgt, seg, pos=None, vm=None):$/;"	m	class:Model
+forward	uer/subencoders/avg_subencoder.py	/^    def forward(self, ids):$/;"	m	class:AvgSubencoder
+forward	uer/subencoders/cnn_subencoder.py	/^    def forward(self, ids):$/;"	m	class:CnnSubencoder
+forward	uer/subencoders/rnn_subencoder.py	/^    def forward(self, ids):$/;"	m	class:LstmSubencoder
+forward	uer/targets/bert_target.py	/^    def forward(self, memory_bank, tgt):$/;"	m	class:BertTarget
+forward	uer/targets/bilm_target.py	/^    def forward(self, memory_bank, tgt):$/;"	m	class:BilmTarget
+forward	uer/targets/cls_target.py	/^    def forward(self, memory_bank, tgt):$/;"	m	class:ClsTarget
+forward	uer/targets/lm_target.py	/^    def forward(self, memory_bank, tgt):$/;"	m	class:LmTarget
+forward	uer/targets/mlm_target.py	/^    def forward(self, memory_bank, tgt):$/;"	m	class:MlmTarget
+forward	uer/targets/nsp_target.py	/^    def forward(self, memory_bank, tgt):$/;"	m	class:NspTarget
+forward	uer/targets/s2s_target.py	/^    def forward(self, memory_bank, tgt):$/;"	m	class:S2sTarget
+gelu	uer/utils/act_fun.py	/^def gelu(x):$/;"	f
+get	uer/utils/vocab.py	/^    def get(self, w):$/;"	m	class:Vocab
+get_lr	uer/utils/optimizers.py	/^    def get_lr(self):$/;"	m	class:BertAdam
+init_hidden	uer/encoders/birnn_encoder.py	/^    def init_hidden(self, batch_size, device):$/;"	m	class:BilstmEncoder
+init_hidden	uer/encoders/mixed_encoder.py	/^    def init_hidden(self, batch_size, device):$/;"	m	class:CrnnEncoder
+init_hidden	uer/encoders/mixed_encoder.py	/^    def init_hidden(self, batch_size, device):$/;"	m	class:RcnnEncoder
+init_hidden	uer/encoders/rnn_encoder.py	/^    def init_hidden(self, batch_size, device):$/;"	m	class:GruEncoder
+init_hidden	uer/encoders/rnn_encoder.py	/^    def init_hidden(self, batch_size, device):$/;"	m	class:LstmEncoder
+load	uer/utils/vocab.py	/^    def load(self, vocab_path, is_quiet=False):$/;"	m	class:Vocab
+load_hyperparam	uer/utils/config.py	/^def load_hyperparam(args):$/;"	f
+main	run_kbert_cls.py	/^def main():$/;"	f
+main	run_kbert_ner.py	/^def main():$/;"	f
+mask_seq	uer/utils/data.py	/^def mask_seq(src, vocab_size):$/;"	f
+merge_dataset	uer/utils/data.py	/^def merge_dataset(dataset_path, workers_num, instances_buffer_size):$/;"	f
+mlm	uer/targets/bert_target.py	/^    def mlm(self, memory_bank, tgt_mlm):$/;"	m	class:BertTarget
+mlm	uer/targets/mlm_target.py	/^    def mlm(self, memory_bank, tgt_mlm):$/;"	m	class:MlmTarget
+read_dataset	run_kbert_cls.py	/^    def read_dataset(path, workers_num=1):$/;"	f	function:main
+read_dataset	run_kbert_ner.py	/^    def read_dataset(path):$/;"	f	function:main
+save	uer/utils/vocab.py	/^    def save(self, save_path):$/;"	m	class:Vocab
+save_model	uer/model_saver.py	/^def save_model(model, model_path):$/;"	f
+set_seed	uer/utils/seed.py	/^def set_seed(seed=7):$/;"	f
+shape	uer/layers/multi_headed_attn.py	/^        def shape(x):$/;"	f	function:MultiHeadedAttention.forward
+step	uer/utils/optimizers.py	/^    def step(self, closure=None):$/;"	m	class:BertAdam
+tokenize	uer/utils/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:BasicTokenizer
+tokenize	uer/utils/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:BertTokenizer
+tokenize	uer/utils/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:CharTokenizer
+tokenize	uer/utils/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:SpaceTokenizer
+tokenize	uer/utils/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:Tokenizer
+tokenize	uer/utils/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:WordpieceTokenizer
+train_and_validate	uer/trainer.py	/^def train_and_validate(args):$/;"	f
+train_bert	uer/trainer.py	/^def train_bert(args, gpu_id, rank, loader, model, optimizer):$/;"	f
+train_bilm	uer/trainer.py	/^def train_bilm(args, gpu_id, rank, loader, model, optimizer):$/;"	f
+train_cls	uer/trainer.py	/^def train_cls(args, gpu_id, rank, loader, model, optimizer):$/;"	f
+train_lm	uer/trainer.py	/^def train_lm(args, gpu_id, rank, loader, model, optimizer):$/;"	f
+train_mlm	uer/trainer.py	/^def train_mlm(args, gpu_id, rank, loader, model, optimizer):$/;"	f
+train_nsp	uer/trainer.py	/^def train_nsp(args, gpu_id, rank, loader, model, optimizer):$/;"	f
+train_s2s	uer/trainer.py	/^def train_s2s(args, gpu_id, rank, loader, model, optimizer):$/;"	f
+truncate_seq_pair	uer/utils/data.py	/^    def truncate_seq_pair(self, tokens_a, tokens_b, max_num_tokens):$/;"	m	class:BertDataset
+truncate_seq_pair	uer/utils/data.py	/^    def truncate_seq_pair(self, tokens_a, tokens_b, max_num_tokens):$/;"	m	class:NspDataset
+union	uer/utils/vocab.py	/^    def union(self, vocab_list):$/;"	m	class:Vocab
+unshape	uer/layers/multi_headed_attn.py	/^        def unshape(x):$/;"	f	function:MultiHeadedAttention.forward
+warmup_constant	uer/utils/optimizers.py	/^def warmup_constant(x, warmup=0.002):$/;"	f
+warmup_cosine	uer/utils/optimizers.py	/^def warmup_cosine(x, warmup=0.002):$/;"	f
+warmup_linear	uer/utils/optimizers.py	/^def warmup_linear(x, warmup=0.002):$/;"	f
+whitespace_tokenize	uer/utils/tokenizer.py	/^def whitespace_tokenize(text):$/;"	f
+word2sub	uer/utils/subword.py	/^def word2sub(word_ids, vocab, sub_vocab, subword_type):$/;"	f
+worker	uer/trainer.py	/^def worker(gpu_id, gpu_ranks, args, model):$/;"	f
+worker	uer/utils/data.py	/^    def worker(self, proc_id, start, end):$/;"	m	class:BertDataset
+worker	uer/utils/data.py	/^    def worker(self, proc_id, start, end):$/;"	m	class:BilmDataset
+worker	uer/utils/data.py	/^    def worker(self, proc_id, start, end):$/;"	m	class:ClsDataset
+worker	uer/utils/data.py	/^    def worker(self, proc_id, start, end):$/;"	m	class:LmDataset
+worker	uer/utils/data.py	/^    def worker(self, proc_id, start, end):$/;"	m	class:MlmDataset
+worker	uer/utils/data.py	/^    def worker(self, proc_id, start, end):$/;"	m	class:NspDataset
+worker	uer/utils/data.py	/^    def worker(self, proc_id, start, end):$/;"	m	class:S2sDataset
+worker	uer/utils/vocab.py	/^    def worker(self, corpus_path, tokenizer, start, end):$/;"	m	class:Vocab

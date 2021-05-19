@@ -1,0 +1,88 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Answer	run_nq.py	/^class Answer(collections.namedtuple("Answer", ["type", "text", "offset"])):$/;"	c
+AnswerType	run_nq.py	/^class AnswerType(enum.IntEnum):$/;"	c
+CreateTFExampleFn	run_nq.py	/^class CreateTFExampleFn(object):$/;"	c
+EvalExample	run_nq.py	/^class EvalExample(object):$/;"	c
+FLAGS	prepare_nq_data.py	/^FLAGS = flags.FLAGS$/;"	v
+FLAGS	run_nq.py	/^FLAGS = flags.FLAGS$/;"	v
+FLAGS	run_nq_test.py	/^FLAGS = flags.FLAGS$/;"	v
+FeatureWriter	run_nq.py	/^class FeatureWriter(object):$/;"	c
+InputFeatures	run_nq.py	/^class InputFeatures(object):$/;"	c
+LONG	run_nq.py	/^  LONG = 4$/;"	v	class:AnswerType
+NO	run_nq.py	/^  NO = 2$/;"	v	class:AnswerType
+NqExample	run_nq.py	/^class NqExample(object):$/;"	c
+RawResult	run_nq.py	/^RawResult = collections.namedtuple($/;"	v
+RunNqTest	run_nq_test.py	/^class RunNqTest(tf.test.TestCase):$/;"	c
+SHORT	run_nq.py	/^  SHORT = 3$/;"	v	class:AnswerType
+ScoreSummary	run_nq.py	/^class ScoreSummary(object):$/;"	c
+Span	run_nq.py	/^Span = collections.namedtuple("Span", ["start_token_idx", "end_token_idx"])$/;"	v
+TextSpan	run_nq.py	/^TextSpan = collections.namedtuple("TextSpan", "token_positions text")$/;"	v
+UNKNOWN	run_nq.py	/^  UNKNOWN = 0$/;"	v	class:AnswerType
+VOCAB_TOKENS	run_nq_test.py	/^  VOCAB_TOKENS = [$/;"	v	class:RunNqTest
+YES	run_nq.py	/^  YES = 1$/;"	v	class:AnswerType
+_SPECIAL_TOKENS_RE	run_nq.py	/^_SPECIAL_TOKENS_RE = re.compile(r"^\\[[^ ]*\\]$", re.UNICODE)$/;"	v
+__init__	run_nq.py	/^  def __init__(self):$/;"	m	class:ScoreSummary
+__init__	run_nq.py	/^  def __init__(self, example_id, candidates):$/;"	m	class:EvalExample
+__init__	run_nq.py	/^  def __init__(self, filename, is_training):$/;"	m	class:FeatureWriter
+__init__	run_nq.py	/^  def __init__(self, is_training):$/;"	m	class:CreateTFExampleFn
+__init__	run_nq.py	/^  def __init__(self,$/;"	m	class:InputFeatures
+__init__	run_nq.py	/^  def __init__(self,$/;"	m	class:NqExample
+__lt__	run_nq.py	/^  def __lt__(self, other):$/;"	m	class:ScoreSummary	file:
+__new__	run_nq.py	/^  def __new__(cls, type_, text=None, offset=None):$/;"	m	class:Answer	file:
+_decode_record	run_nq.py	/^  def _decode_record(record, name_to_features):$/;"	f	function:input_fn_builder
+_open	run_nq.py	/^  def _open(path):$/;"	f	function:read_nq_examples
+add_candidate_types_and_positions	run_nq.py	/^def add_candidate_types_and_positions(e):$/;"	f
+append_feature	run_nq.py	/^    def append_feature(feature):$/;"	f	function:main
+candidates_iter	run_nq.py	/^def candidates_iter(e):$/;"	f
+close	run_nq.py	/^  def close(self):$/;"	m	class:FeatureWriter
+compute_label_loss	run_nq.py	/^      def compute_label_loss(logits, labels):$/;"	f	function:model_fn_builder.model_fn
+compute_loss	run_nq.py	/^      def compute_loss(logits, positions):$/;"	f	function:model_fn_builder.model_fn
+compute_pred_dict	run_nq.py	/^def compute_pred_dict(candidates_dict, dev_features, raw_results):$/;"	f
+compute_predictions	run_nq.py	/^def compute_predictions(example):$/;"	f
+convert_examples_to_features	run_nq.py	/^def convert_examples_to_features(examples, tokenizer, is_training, output_fn):$/;"	f
+convert_single_example	run_nq.py	/^def convert_single_example(example, tokenizer, is_training):$/;"	f
+create_example_from_jsonl	run_nq.py	/^def create_example_from_jsonl(line):$/;"	f
+create_int_feature	run_nq.py	/^      def create_int_feature(values):$/;"	f	function:CreateTFExampleFn.process
+create_int_feature	run_nq.py	/^    def create_int_feature(values):$/;"	f	function:FeatureWriter.process_feature
+create_model	run_nq.py	/^def create_model(bert_config, is_training, input_ids, input_mask, segment_ids,$/;"	f
+flags	prepare_nq_data.py	/^flags = tf.flags$/;"	v
+flags	run_nq.py	/^flags = tf.flags$/;"	v
+flags	run_nq_test.py	/^flags = tf.flags$/;"	v
+get_best_indexes	run_nq.py	/^def get_best_indexes(logits, n_best_size):$/;"	f
+get_candidate_text	run_nq.py	/^def get_candidate_text(e, idx):$/;"	f
+get_candidate_type	run_nq.py	/^def get_candidate_type(e, idx):$/;"	f
+get_candidate_type_and_position	run_nq.py	/^def get_candidate_type_and_position(e, idx):$/;"	f
+get_examples	prepare_nq_data.py	/^def get_examples(input_jsonl_pattern):$/;"	f
+get_first_annotation	run_nq.py	/^def get_first_annotation(e):$/;"	f
+get_text_span	run_nq.py	/^def get_text_span(example, span):$/;"	f
+has_long_answer	run_nq.py	/^def has_long_answer(a):$/;"	f
+input_fn	run_nq.py	/^  def input_fn(params):$/;"	f	function:input_fn_builder
+input_fn_builder	run_nq.py	/^def input_fn_builder(input_file, seq_length, is_training, drop_remainder):$/;"	f
+is_whitespace	run_nq.py	/^  def is_whitespace(c):$/;"	f	function:read_nq_entry
+main	prepare_nq_data.py	/^def main(_):$/;"	f
+main	run_nq.py	/^def main(_):$/;"	f
+make_nq_answer	run_nq.py	/^def make_nq_answer(contexts, answer):$/;"	f
+make_tf_examples	run_nq_test.py	/^  def make_tf_examples(self, example, is_training):$/;"	m	class:RunNqTest
+model_fn	run_nq.py	/^  def model_fn(features, labels, mode, params):  # pylint: disable=unused-argument$/;"	f	function:model_fn_builder
+model_fn_builder	run_nq.py	/^def model_fn_builder(bert_config, init_checkpoint, learning_rate,$/;"	f
+process	run_nq.py	/^  def process(self, example):$/;"	m	class:CreateTFExampleFn
+process_feature	run_nq.py	/^  def process_feature(self, feature):$/;"	m	class:FeatureWriter
+read_candidates	run_nq.py	/^def read_candidates(input_pattern):$/;"	f
+read_candidates_from_one_split	run_nq.py	/^def read_candidates_from_one_split(input_path):$/;"	f
+read_nq_entry	run_nq.py	/^def read_nq_entry(entry, is_training):$/;"	f
+read_nq_examples	run_nq.py	/^def read_nq_examples(input_file, is_training):$/;"	f
+setUp	run_nq_test.py	/^  def setUp(self):$/;"	m	class:RunNqTest
+should_skip_context	run_nq.py	/^def should_skip_context(e, idx):$/;"	f
+test_example_metadata	run_nq_test.py	/^  def test_example_metadata(self):$/;"	m	class:RunNqTest
+test_minimal_examples	run_nq_test.py	/^  def test_minimal_examples(self):$/;"	m	class:RunNqTest
+test_multi_candidate_document	run_nq_test.py	/^  def test_multi_candidate_document(self):$/;"	m	class:RunNqTest
+token_to_char_offset	run_nq.py	/^def token_to_char_offset(e, candidate_idx, token_idx):$/;"	f
+tokenize	run_nq.py	/^def tokenize(tokenizer, text, apply_basic_tokenization=False):$/;"	f
+tpu_scaffold	run_nq.py	/^        def tpu_scaffold():$/;"	f	function:model_fn_builder.model_fn
+validate_flags_or_throw	run_nq.py	/^def validate_flags_or_throw(bert_config):$/;"	f
+write_examples	run_nq_test.py	/^  def write_examples(self, examples):$/;"	m	class:RunNqTest

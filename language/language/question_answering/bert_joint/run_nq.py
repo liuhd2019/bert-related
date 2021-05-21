@@ -1451,8 +1451,8 @@ def main(_):
               end_logits=end_logits,
               answer_type_logits=answer_type_logits))
 
-    print("predict res:", len(all_results))
-    print("predict res:", all_results) 
+    # print("predict res:", len(all_results))
+    # print("predict res:", all_results) 
     candidates_dict = read_candidates(FLAGS.predict_file)
     eval_features = [
         tf.train.Example.FromString(r)
